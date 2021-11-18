@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="_css/stilo.css">
+	<script type="text/javascript" src="_js/validacao.js"></script>
+</head>
+
+<body>
+	<h1>Formulário</h1>
+	<a href="index.html">Inicio</a>
+	<form>
+			<p>NOME</p>
+				<input type="text" name="nome" id="NOME">		
+			<p>SOBRENOME</p>
+				<input type="text" name="sobrenome" id="SOBRENOME">
+			<p>NACIONALIDADE</p>
+				<input type="text" name="NACIONALIDADE" id="nacionalidade">	
+			<p>EMAIL</p>
+				<input type="email" name="email" placeholder="email@email.com" id="EMAIL">
+			<p>FONE</p>
+				<input type="text" name="Fone" placeholder="(043) 91234-5678" id="Fone" onblur="maskFone">
+			<p>CPF</p>
+				<input type="text" name="Cpf" placeholder="123.456.789-01" id="CPF">
+			<p>ASSUNTO</p>
+				<input type="text" name="assunto" id="ASSUNTO">
+			<p>DETALHES</p>
+				<input type="text" name="detalhes" id="DETALHES">
+			<p>GÊNERO</p>
+				<input type="text" name="genero" id="GENERO">
+			<p>ESTADO CIVIL</p>
+				<input type="text" name="estadoCivil" id="ESTADO-CIVIL">
+			<p>CEP</p>
+				<input type="text" name="CEP" id="CEP">
+			<p>RUA</p>
+				<input type="text" name="RUA" id="RUA">
+			<p>BAIRRO</p>
+				<input type="text" name="BAIRRO" id="BAIRRO">
+			<p>NÚMERO</p>
+				<input type="text" name="NÚMERO" id="NUMERO">
+			<p>CIDADE</p>
+				<input type="text" name="CIDADE" id="CIDADE">
+			<p>ESTADO</p>
+				<input type="text" name="ESTADO" id="ESTADO">
+		</br>
+			<button class="btn btn-primary" onclick="verificar()">CADASTRAR</button>
+	</form>
+</body>
+</html>
